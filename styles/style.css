@@ -1,7 +1,9 @@
-/* CSS Document */
-/**, *::after, *::before {
+/*  CSS Document 
+ *, *::after, *::before {
   box-sizing:border-box;  
-}*/
+ }
+ 
+ */
 
 * {
     margin: 0;
