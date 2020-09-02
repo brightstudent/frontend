@@ -1,0 +1,185 @@
+/*  CSS Document 
+ *, *::after, *::before {
+  box-sizing:border-box;  
+ }
+ 
+ */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: calc(16px + (16 - 14) * ((100vw - 300px) / (1600 - 300)));
+    font-family: sans-serif;
+}
+
+
+
+header {
+    /* position: fixed; */
+    /* top: 0; */
+    z-index: 999;
+    display: flex;
+    align-items: center;
+    background-color: black;
+    height: 65px;
+    width: 100%;
+    margin: auto;
+    transition: top 0.3s;
+}
+
+#navbar {
+    display: flex;
+    align-items: center;
+    margin: auto;
+    width: 100%;
+    max-width: 1920px;
+    /* height: 100%; */
+
+}
+
+.navlink {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px;
+    /* height: 100%; */
+}
+
+body {
+    width: 100%;
+    background-color: ghostwhite;
+}
+
+h1 {
+    font-size: 26px;
+    line-height: 1.4em;
+}
+
+main {
+
+    /* position: absolute; */
+    width: 100%;
+    height: 100vh;
+    top: 65px;
+    max-width: 1920px;
+    margin: auto;
+    display: flex;
+    justify-content: flex-start;
+    align-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.container {
+    /* border: thin solid white; */
+    width: calc(100% / 4);
+    height: 100%;
+    /* border: thick solid ghostwhite; */
+    /* border-radius: 15px; */
+    max-height: 600px;
+    /* max-height: 1000px; */
+}
+
+.container > section {
+    /* background-color: white; */
+    /* border: thin solid black; */
+    width: calc(100% / 1);
+    height: 50%;
+    padding: 15px;
+
+}
+
+/* .container > .section {
+    display: none;
+    object-position: center;
+} */
+
+.container > div {
+    /* background-color: white; */
+    /* border: thin solid black; */
+    width: calc(100% / 1);
+    height: 50%;
+
+}
+
+.imgfitting {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    /* border-radius: 0 0 12px 12px; */
+}
+
+.container > div:hover {
+    padding: 5px;
+    transition: .2s;
+}
+
+.imgfitting:hover {
+    animation-name: imgextention;
+    animation-duration: .5s;
+    animation-delay: .4s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: both;
+}
+
+@keyframes imgextention {
+    0% {
+        transform: rotate(0deg);
+        object-fit: cover;
+    }
+
+    50% {
+        transform: rotateX(90deg);
+    }
+
+    100% {
+        transform: rotate(0);
+        object-fit: contain;
+    }
+}
+
+
+@media only screen and (max-width: 545px) {
+    .container {
+        /* border: thin solid red; */
+        width: calc(100% / 1);
+        height: 100%;
+    }
+}
+
+@media only screen and (min-width: 540px) {
+    .container {
+        /* border: thin solid red; */
+        width: calc(100% / 2);
+        height: 100%;
+    }
+}
+
+
+@media only screen and (min-width: 768px) {
+    .container {
+        /* border: thin solid red; */
+        width: calc(100% / 2);
+        height: 100%;
+    }
+}
+
+
+@media only screen and (min-width: 992px) {
+    .container {
+        /* border: thin solid red; */
+        width: calc(100% / 3);
+        height: 100%;
+    }
+}
+
+@media only screen and (min-width: 1440px) {
+    .container {
+        /* border: thin solid red; */
+        width: calc(100% / 4);
+        height: 100%;
+    }
+}
