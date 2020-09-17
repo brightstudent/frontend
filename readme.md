@@ -39,12 +39,12 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 ### Stand van zaken
 
 **Wat ging goed:**
-    -responsive maken van de website-
-    -het gebruiken van de grid voor het eerste keer-
+    responsive maken van de website
+    het gebruiken van de grid voor het eerste keer
     
 **Wat was lastig:**
-    -croussel maken-
-    -script toevoegen- 
+croussel maken
+script toevoegen
 
 **Screenshot(s):**
 
