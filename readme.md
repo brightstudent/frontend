@@ -38,7 +38,13 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ### Stand van zaken
 
--dit ging goed & dit was lastig-
+Wat ging goed:
+    -   responsive maken van de website 
+    -   het gebruiken van de grid voor het eerste keer
+    
+Wat was lastig:
+    -   croussel maken
+    -   script toevoegen 
 
 **Screenshot(s):**
 
@@ -64,7 +70,9 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 **Screenshot(s):**
 
-![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/dummy-image.svg)
+![Behance op mobiel formaat](screenshots/iPhone.png)
+![Behance op tablet formaat](screenshots/iPad.png)
+![Behance op desktop formaat](screenshots/Laptop.png)
 
 **Breakdown-schets(en):**
 
