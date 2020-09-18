@@ -30,8 +30,14 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ## Voortgang 2 (week 5)
 
--same as voortgang 1-
-
+**Wat ging goed:**
+1. tekst overlay op de thumbnails tijdens de hover
+2. ratio behouden tijdens het schalen
+    
+**Wat was lastig:**
+1. croussel knoppen maken om te navigeren
+2. active link in de carossel in het midden centreren
+3. menu laten collapsen (hamburgermenu) op kleinere schermen
 
 
 ## Voortgang 1 (week 3)
@@ -48,7 +54,7 @@ script toevoegen
 
 **Screenshot(s):**
 
--screenshot(s) van hoe ver je bent-
+![Voortgang van week 3](screenshots/week 1 voortgang 1.png)
 
 ### Agenda voor meeting
 
