@@ -49,7 +49,7 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ### Agenda voor meeting
 
-![Agenda van week 3](screenshots/agenda-week5.png)
+![Agenda van week 3](screenshots/agenda-week5.jpeg)
 
 
 
@@ -71,7 +71,7 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ### Agenda voor meeting
 
-![Agenda van week 3](screenshots/agenda-week3.png)
+![Agenda van week 3](screenshots/agenda-week3.jpeg)
 
 ### Verslag van meeting
 
