@@ -54,7 +54,7 @@ script toevoegen
 
 **Screenshot(s):**
 
-![Voortgang van week 3](screenshots/week 1 voortgang 1.png)
+![Voortgang van week 3](screenshots/voortgang1.png)
 
 ### Agenda voor meeting
 
