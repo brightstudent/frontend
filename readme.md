@@ -39,6 +39,19 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 2. active link in de carossel in het midden centreren
 3. menu laten collapsen (hamburgermenu) op kleinere schermen
 
+**Screenshots:**
+
+![Voortgang van week 5](screenshots/voortgang2.png)
+
+![Ik ben trots op het gebruiken van de psuedo class :after en :before daardoor heb ik de gradient kunnen doen](screenshots/code1.png)
+
+![Het gebruiken van before heeft ook geholpen bij het maken van een gefixte aspect ratio voor de foto's](screenshots/code2.png)
+
+### Agenda voor meeting
+
+![Agenda van week 3](screenshots/agenda-week5.png)
+
+
 
 ## Voortgang 1 (week 3)
 
@@ -49,8 +62,8 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 2. het gebruiken van de grid voor het eerste keer
     
 **Wat was lastig:**
-croussel maken
-script toevoegen
+1. croussel maken
+2. script toevoegen
 
 **Screenshot(s):**
 
@@ -58,7 +71,7 @@ script toevoegen
 
 ### Agenda voor meeting
 
--samen met je groepje opstellen-
+![Agenda van week 3](screenshots/agenda-week3.png)
 
 ### Verslag van meeting
 
@@ -76,10 +89,10 @@ script toevoegen
 
 **Screenshot(s):**
 
-![Behance op mobiel formaat](screenshots/iPhone.png)
-![Behance op tablet formaat](screenshots/iPad.png)
-![Behance op desktop formaat](screenshots/Laptop.png)
+![Behance op mobiel formaat](screenshots/iphone.png)
+![Behance op tablet formaat](screenshots/ipad.png)
+![Behance op desktop formaat](screenshots/laptop.png)
 
 **Breakdown-schets(en):**
 
-![-voorlopige breakdownschets(en) van een of beide pagina's van de site die je gaat maken-](images/dummy-image.svg)
+

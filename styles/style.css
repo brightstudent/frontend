@@ -10,6 +10,7 @@
 body {
     width: 100%;
     margin-top: 60px;
+    margin-bottom: 60px;
 }
 
 header {
@@ -27,9 +28,17 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
+    overflow: scroll;
     margin: auto;
-    overflow: hidden;
 }
+
+#navbar::-webkit-scrollbar {
+    display: none;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+
 
 
 
@@ -56,98 +65,151 @@ header {
     padding: 10px 15px;
 }
 
-#navbar a:first-of-type {
-    
-}
+#navbar a:first-of-type {}
 
 #navbar a.active {
     color: white;
 }
 
-#navcarousel {
-    overflow: hidden;
-    height: 120px;
-    width: 100%;
-    display: flex;
-    align-items: flex-start;
-    overflow-x: scroll;
 
+#navcarousel {
+    height: 70px;
+    display: flex;
+    position: relative;
 }
 
-#navcarousel::-webkit-scrollbar {
+#navcarousel nav {
+    display: inline-flex;
+    overflow: scroll hidden;
+}
+
+#navcarousel nav::-webkit-scrollbar {
     display: none;
     -ms-overflow-style: none;
     scrollbar-width: none;
 }
 
-#navcarousel a {
-    font-weight: 800;
-    margin: 5px;
-    color: white;
-    background-color: #0045ff;
-    text-decoration: none;
+#navcarousel nav > a {
     min-width: 150px;
+    margin: .25em;
+    color: aliceblue;
+    text-decoration: none;
+    font-weight: 800;
+    display: flex;
+    justify-content: center;
     text-align: center;
-    border-radius: 4px;
-    height: 75px;
+    align-items: center;
+    width: 190px;
+    border-radius: 2px;
+    height: 60px;
+    background-color: blue;
+}
+
+
+
+.backbutton {
+    /*    content: "";*/
+    background-image: linear-gradient(-90deg, transparent 10%, rgba(255, 255, 255, 0.72) 90%, white 100%);
+    width: 50px;
+    height: 70px;
+    position: absolute;
+    left: 0;
+
+
+}
+
+.backbutton::before {
+    content: "👈";
+    width: 40px;
+    height: 40px;
+    text-decoration: none;
+    color: gainsboro;
+    background: white;
+    box-shadow: 0 0 5px grey;
+    position: absolute;
+    text-align: center;
     display: flex;
     justify-content: center;
     align-items: center;
+    border-radius: 50%;
+    top: calc(50% - 20px);
+    left: .5em;
 }
 
-#navcarousel a:first-of-type{
-    border-radius: 100%;
-    box-shadow: 0 2px 5px #182958;
+.nextbutton {
+    /*    content: "";*/
+    background-image: linear-gradient(90deg, transparent 10%, rgb(255, 255, 255) 70%, white 100%);
+    width: 200px;
+    height: 70px;
     position: absolute;
-    top: 75px;
-    left: 1em;
-    background: white;
-    color: black;
-    margin: 0;
-    min-width: 50px;
-    height: 50px;
+    right: 0;
 }
 
-#navcarousel a:last-of-type{
-    border-radius: 100%;
-    box-shadow: 0 2px 5px #182958;
+.nextbutton::after {
+    content: "👉";
+    width: 40px;
+    height: 40px;
+    text-decoration: none;
+    color: gainsboro;
+    background: white;
+    box-shadow: 0 0 5px grey;
     position: absolute;
-    top: 75px;
-    right: 1em;
-    background: white;
-    color: black;
-    margin: 0;
-    min-width: 50px;
-    height: 50px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    top: calc(50% - 20px);
+    right: calc(.5em + 50px + .5em);
 }
 
+.carouselmenu {
+
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: .5em;
+    top: calc(50% - 25px);
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 0 0 5px grey;
+}
 
 #introtxt {
-
-    padding: 2.4em 0;
-
+    margin: 20px 30px 30px 30px;
 }
 
 #introtxt h1 {
 
     font-family: "Acumin-Pro", sans-serif;
     font-weight: 800;
-    font-size: 69px;
-    line-height: 63px;
+    font-size: 70px;
+    margin-bottom: 15px;
+    letter-spacing: -1px;
+    line-height: 0.9em;
     text-align: center;
+    /*    font-size: 320%;*/
+    /*    Het gebruiken van % schaalt beter op mobiel*/
+
 }
 
-#introtxt p {
+#introtxt h2 {
 
     font-family: "Acumin-Pro", sans-serif;
-    font-weight: normal;
-    font-size: 1.7em;
-    line-height: 1.6em;
+    font-weight: 500;
+    font-size: 23px;
+    line-height: 1.25em;
+    margin: 0 auto;
     text-align: center;
+    /*    font-size: 120%*/
 }
 
 
-#canvas {
+main {
     margin-left: auto;
     margin-right: auto;
     justify-content: center;
@@ -155,16 +217,13 @@ header {
     display: grid;
     grid-auto-columns: repeat(4, 50%);
     grid-column-gap: 20px;
-    grid-row-gap: 2.5em;
+    grid-row-gap: 2.55em;
 
 }
 
 
-#canvas .thumbnail {
-
+.thumbnail {
     position: relative;
-    height: 100%;
-    width: 100%;
 }
 
 .thumbnail:after {
@@ -182,7 +241,7 @@ header {
     width: 100%;
     border-radius: 4px;
     z-index: -1;
-    
+
 }
 
 .thumbnail h1 {
@@ -197,7 +256,7 @@ header {
 
     display: flex;
     align-items: flex-end;
-    
+
     color: transparent;
     background-image: transparent;
     transition: .2s;
@@ -221,47 +280,100 @@ header {
     transition: .5s;
 }
 
+
 @media only screen and (max-width: 545px) {
-    #canvas {
+
+    .backbutton {
+        display: none;
+    }
+
+    .nextbutton::after {
+        display: none;
+    }
+
+    #introtxt h1 {
+        font-size: 320%;
+        /*    Het gebruiken van % schaalt beter op mobiel*/
+
+    }
+
+    #introtxt h2 {
+        font-size: 120%
+    }
+
+    main {
         grid-template-columns: 1fr;
     }
+
+
 }
 
 @media only screen and (min-width: 540px) {
-    #canvas {
+
+
+    #introtxt h1 {
+        font-size: 320%;
+        /*    Het gebruiken van % schaalt beter op mobiel*/
+
+    }
+
+    #introtxt h2 {
+        font-size: 120%
+    }
+
+    main {
         grid-template-columns: repeat(2, 1fr);
     }
 }
 
 
 @media only screen and (min-width: 768px) {
-    #canvas {
+    main {
         grid-template-columns: repeat(2, 1fr);
     }
 }
 
 
 @media only screen and (min-width: 992px) {
-    #canvas {
+    main {
         grid-template-columns: repeat(3, 1fr);
+    }
+
+    footer::after {
+        content: "Dit is een footer.. Wow!";
+        background: #000;
+        color: gray;
+        position: fixed;
+        height: 1.5em;
+        margin: auto;
+        top: calc(100% - 1.5em);
+        width: 100%;
+        text-align: center;
     }
 }
 
 @media only screen and (min-width: 1440px) {
-    #canvas {
+    main {
         grid-template-columns: repeat(4, 1fr);
     }
 }
 
 @media only screen and (min-width: 1734px) {
-    #canvas {
+    main {
         grid-template-columns: repeat(5, 1fr);
     }
 }
 
-@media only screen and (min-width: 2593px) {
-    #canvas {
-        grid-template-columns: repeat(7, 1fr);
+@media (max-width: 2593px) and (min-width: 2149px) {
+    main {
+        grid-template-columns: repeat(6, 1fr);
     }
 }
 
+@media only screen and (min-width: 2593px) {
+    main {
+        max-width: 3000px;
+        /*        border: 2px solid red;*/
+        grid-template-columns: repeat(7, 1fr);
+    }
+}
