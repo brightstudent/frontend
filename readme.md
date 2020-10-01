@@ -41,11 +41,11 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 **Screenshots:**
 
-![Voortgang van week 5](screenshots/voortgang2.png)
+![Voortgang van week 5](screenshots/voortgang2.png "Voortgang van week 5")
 
-![Ik ben trots op het gebruiken van de psuedo class :after en :before daardoor heb ik de gradient kunnen doen](screenshots/code1.png)
+![Ik ben trots op het gebruiken van de psuedo class :after en :before daardoor heb ik de gradient kunnen doen](screenshots/code1.png "Code van de carousel knoppen")
 
-![Het gebruiken van before heeft ook geholpen bij het maken van een gefixte aspect ratio voor de foto's](screenshots/code2.png)
+![Het gebruiken van before heeft ook geholpen bij het maken van een gefixte aspect ratio voor de foto's](screenshots/code2.png "Code van de gefixte aspect ratio")
 
 ### Agenda voor meeting
 
@@ -68,7 +68,7 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 **Screenshot(s):**
 
-![Voortgang van week 3](screenshots/voortgang1.png "voortgang week 3")
+![Voortgang van week 3](screenshots/voortgang1.png "Voortgang week 3")
 
 ### Agenda voor meeting
 
@@ -90,9 +90,9 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 **Screenshot(s):**
 
-![Behance op mobiel formaat](screenshots/iphone.png)
-![Behance op tablet formaat](screenshots/ipad.png)
-![Behance op desktop formaat](screenshots/laptop.png)
+![Behance op mobiel formaat](screenshots/iphone.png "Mobiel formaat")
+![Behance op tablet formaat](screenshots/ipad.png "Tablet formaat")
+![Behance op desktop formaat](screenshots/laptop.png "Laptop formaat")
 
 **Breakdown-schets(en):**
 
