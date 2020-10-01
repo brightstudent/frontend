@@ -6,9 +6,9 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 
 ## Bronnenlijst
-1. -bron 1-
-2. -bron 2-
-3. -...-
+1. https://css-tricks.com/aspect-ratio-boxes/
+2. https://css-tricks.com/almanac/selectors/a/after-and-before/
+3. https://www.w3schools.com/css/css3_object-fit.asp
 
 
 
@@ -49,7 +49,7 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ### Agenda voor meeting
 
-![Agenda van week 3](screenshots/agenda-week5.png)
+![Agenda van week 5](screenshots/agenda-week5.png "Agenda van week 5")
 
 
 
@@ -60,6 +60,7 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 **Wat ging goed:**
 1. responsive maken van de website
 2. het gebruiken van de grid voor het eerste keer
+
     
 **Wat was lastig:**
 1. croussel maken
@@ -67,11 +68,11 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 **Screenshot(s):**
 
-![Voortgang van week 3](screenshots/voortgang1.png)
+![Voortgang van week 3](screenshots/voortgang1.png "voortgang week 3")
 
 ### Agenda voor meeting
 
-![Agenda van week 3](screenshots/agenda-week3.png)
+![Agenda van week 3](screenshots/agenda-week3.png "Agenda van week 3")
 
 ### Verslag van meeting
 
