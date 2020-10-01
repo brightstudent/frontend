@@ -26,10 +26,8 @@ header {
     width: 100%;
     height: 60px;
     display: flex;
-    align-items: center;
-    justify-content: center;
-    overflow: scroll;
-    margin: auto;
+    justify-content: space-between;
+    color: lightgrey;
 }
 
 #navbar::-webkit-scrollbar {
@@ -38,24 +36,36 @@ header {
     scrollbar-width: none;
 }
 
-
-
-
-
-#navbar a {
-    text-decoration: none;
-    font-weight: 700;
-    font-size: 15px;
-    color: lightgrey;
-    padding: 10px;
-    min-width: 100px;
-    width: 100px;
+#navbar div {
     display: flex;
-    justify-content: center;
+    align-items: center;
 
 }
 
-#navbar a:nth-of-type(5) {
+#navbar div:first-of-type {
+    justify-self: flex-start;
+}
+
+#navbar div:nth-of-type(2) {
+    justify-self: center;
+}
+
+#navbar div:last-of-type {
+    justify-self: flex-end;
+}
+
+#navbar div a {
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 15px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: lightgrey;
+}
+
+#navbar div a:nth-of-type(4) {
     color: white;
     width: auto;
     min-width: 225px;
@@ -65,12 +75,43 @@ header {
     padding: 10px 15px;
 }
 
-#navbar a:first-of-type {}
+#navbar div a:nth-of-type(5),
+a:nth-of-type(6),
+:nth-of-type(7) {
+    width: 35px;
+    height: 35px;
+    margin: 0 .2em;
+    border-radius: 40px;
+    color: red;
+}
 
-#navbar a.active {
+
+
+#navbar div a:nth-of-type(5) {
+    background-color: white;
+    color: black;
+}
+
+#navbar div a:nth-of-type(6) {
+    background-color: #386fd3;
     color: white;
 }
 
+#navbar div a:nth-of-type(7) {
+    background-color: white;
+}
+
+.fa-google {
+    background: conic-gradient(from -45deg, #ea4335 110deg, #4285f4 90deg 180deg, #34a853 180deg 270deg, #fbbc05 270deg) 73% 55%/150% 150% no-repeat;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+}
+
+#navbar div a.active {
+    color: white;
+}
 
 #navcarousel {
     height: 70px;
