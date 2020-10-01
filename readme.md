@@ -38,6 +38,7 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 1. croussel knoppen maken om te navigeren
 2. active link in de carossel in het midden centreren
 3. menu laten collapsen (hamburgermenu) op kleinere schermen
+4. over het algemeen zijn de menu balken het moeilijkste gedeelte 
 
 **Screenshots:**
 
