@@ -10,6 +10,7 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 2. https://css-tricks.com/almanac/selectors/a/after-and-before/
 3. https://www.w3schools.com/css/css3_object-fit.asp
 4. https://stackoverflow.com/questions/52578726/fontawesome-5-multi-color-icon
+5. https://fontawesome.com/icons/google?style=brands
 
 
 
@@ -40,7 +41,7 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 2. active link in de carossel in het midden centreren
 3. menu laten collapsen (hamburgermenu) op kleinere schermen
 4. over het algemeen zijn de menu balken het moeilijkste gedeelte 
-5. https://fontawesome.com/icons/google?style=brands
+
 
 **Screenshots:**
 
