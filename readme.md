@@ -76,7 +76,7 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ### Verslag van meeting
 
--na afloop snel uitkomsten vastleggen-
+Tijdens de meeting hebben we het gehad over tekst overlay boven de plaatjes. Hiervoor heb ik de tip gekregen om een article element te gebruiken in plaats van een section met daarin een div voor de foto.
 
 
 
