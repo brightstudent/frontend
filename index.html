@@ -16,34 +16,40 @@
     <header>
 
         <nav id="navbar">
-            <div>
-                <a href="">LOGO</a>
-                
-                
-            </div>
-            <div>
-                <a href="index.html" class="active">Ontdekken</a>
-                <a href="">Live</a>
-                <a href="">Banen</a>
-                <a href="">Registeren met e-mailadres</a>
-                <span>of</span>
-                <a href=""><i class="fa fa-apple" style="font-size:20px"></i></a>
-                <a href=""><i class="fa fa-facebook" style="font-size:20px"></i></a>
-                <a href=""><i class="fa fa-google" style="font-size:20px"></i></a>
-            </div>
 
             <div>
-                <a href="">
-                    <i class="fa fa-search"></i>
-                </a>
-                <a href="">Aanmelden</a>
-                <a href="">Adobe</a>
+                <button><i class="fa fa-bars" style="font-size:25px;"></i></button>
+                <a href="index.html"><img src="images/behance-logo.svg" width="80px" alt=""></a>
             </div>
+
+            <ul>
+                <li><a href="index.html" class="active">Ontdekken</a></li>
+                <li><a href="">Live</a></li>
+                <li><a href="">Banen</a></li>
+                <li><a href="">Registeren met e-mailadres</a></li>
+                <li><span>of</span></li>
+                <li>
+                    <a href=""><i class="fa fa-apple" style="font-size:20px"></i></a>
+                    <a href=""><i class="fa fa-facebook" style="font-size:20px"></i></a>
+                    <a href=""><i class="fa fa-google" style="font-size:20px"></i></a>
+                </li>
+            </ul>
+
+
+            <ul>
+                <li><a href=""><i class="fa fa-search"></i></a></li>
+                <li><a href="">Aanmelden</a></li>
+                <li><a href="">Adobe</a></li>
+            </ul>
+
         </nav>
 
         <div id="navcarousel">
 
-            <div class="backbutton"></div>
+            <div class="backbutton">
+                <div></div>
+                <button><i class="fa fa-chevron-left" aria-hidden="true"></i></button>
+            </div>
 
             <nav>
                 <a href="">Het beste van Behance</a>
@@ -69,8 +75,14 @@
                 <a href="">Fresco</a>
             </nav>
 
-            <div class="nextbutton"></div>
-            <div class="carouselmenu">🎲</div>
+
+
+            <button class="nextbutton"><i class="fa fa-chevron-right"></i></button>
+
+            <div class="menu">
+                <div></div>
+                <button><i class="fa fa-ellipsis-h"></i></button>
+            </div>
 
         </div>
 
@@ -133,7 +145,9 @@
 
     </footer>
 
-    <script src="_js/script.js"></script>
+    <script src="scripts/script.js"></script>
 
 
-</body></html>
+</body>
+
+</html>

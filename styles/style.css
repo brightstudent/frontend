@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-size: calc(16px + (16 - 14) * ((100vw - 300px) / (1600 - 300)));
+    font-size: calc(14px + (16 - 14) * ((100vw - 300px) / (1600 - 300)));
     font-family: 'Acumin-Pro', sans-serif;
     @import url("https://use.typekit.net/xta7btl.css");
 }
@@ -19,86 +19,117 @@ header {
 }
 
 #navbar {
+    height: 60px;
+    width: 100%;
+    background-color: #1a1a1a;
     position: fixed;
     top: 0;
     z-index: 999;
-    background-color: black;
-    width: 100%;
-    height: 60px;
     display: flex;
     justify-content: space-between;
-    color: lightgrey;
+    align-items: center;
+    padding: 0 1em;
+    font-family: "Acumin Pro", sans-serif;
+    font-weight: 600;
 }
 
-#navbar::-webkit-scrollbar {
-    display: none;
-    -ms-overflow-style: none;
-    scrollbar-width: none;
-}
 
 #navbar div {
     display: flex;
-    align-items: center;
-
-}
-
-#navbar div:first-of-type {
-    justify-self: flex-start;
-}
-
-#navbar div:nth-of-type(2) {
-    justify-self: center;
-}
-
-#navbar div:last-of-type {
-    justify-self: flex-end;
-}
-
-#navbar div a {
-    text-decoration: none;
-    font-weight: 700;
-    font-size: 15px;
-    padding: 10px;
-    display: flex;
     justify-content: center;
     align-items: center;
+    
+}
+
+
+#navbar div button {
+    cursor: pointer;
+    display: none;
+    border: 0;
+    outline: none;
+    background: none;
+    margin: 10px;
+    z-index: 999;
+}
+
+#navbar ul a {
+    text-decoration: none;
     color: lightgrey;
 }
 
-#navbar div a:nth-of-type(4) {
+#navbar ul a.active {
     color: white;
-    width: auto;
-    min-width: 225px;
-    border-radius: 50px;
-    background-color: #0045ff;
-    line-height: 1em;
-    padding: 10px 15px;
 }
 
-#navbar div a:nth-of-type(5),
-a:nth-of-type(6),
-:nth-of-type(7) {
-    width: 35px;
+#navbar ul {
+    list-style: none;
+}
+
+#navbar ul {
+    display: flex;
+}
+
+#navbar ul li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 .3em;
+}
+
+#navbar ul li:nth-of-type(4) {
+    background-color: #0060ff;
+    border-radius: 35px;
     height: 35px;
-    margin: 0 .2em;
-    border-radius: 40px;
-    color: red;
+    min-width: 230px;
 }
 
-
-
-#navbar div a:nth-of-type(5) {
-    background-color: white;
-    color: black;
-}
-
-#navbar div a:nth-of-type(6) {
-    background-color: #386fd3;
+#navbar ul li:nth-of-type(4) a {
     color: white;
 }
 
-#navbar div a:nth-of-type(7) {
+#navbar ul span {
+    color: lightgrey;
+}
+
+#navbar ul:first-of-type li:last-of-type a {
+    min-width: 35px;
+    height: 35px;
+    border-radius: 35px;
+    margin: 0 .2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#navbar ul:first-of-type li:last-of-type a:first-child {
     background-color: white;
+
+}
+
+#navbar ul:first-of-type li:last-of-type a:nth-child(2) {
+    background-color: #4285f4;
+
+
+}
+
+#navbar ul:first-of-type li:last-of-type a:last-child {
+    background-color: white;
+
+
+}
+
+
+.fa-bars {
+    color: lightgrey;
+}
+
+.fa-apple {
+    color: black;
+
+}
+
+.fa-facebook {
+    color: white;
 }
 
 .fa-google {
@@ -109,11 +140,10 @@ a:nth-of-type(6),
     -webkit-text-fill-color: transparent;
 }
 
-#navbar div a.active {
-    color: white;
-}
+
 
 #navcarousel {
+    width: 100%;
     height: 70px;
     display: flex;
     position: relative;
@@ -147,77 +177,70 @@ a:nth-of-type(6),
 }
 
 
-
-.backbutton {
-    /*    content: "";*/
-    background-image: linear-gradient(-90deg, transparent 10%, rgba(255, 255, 255, 0.72) 90%, white 100%);
-    width: 50px;
-    height: 70px;
+.backbutton div {
     position: absolute;
     left: 0;
-
+    width: 70px;
+    background-image: linear-gradient(to left, transparent 10%, white 90%);
+    height: 100%;
 
 }
 
-.backbutton::before {
-    content: "👈";
-    width: 40px;
-    height: 40px;
-    text-decoration: none;
-    color: gainsboro;
-    background: white;
-    box-shadow: 0 0 5px grey;
+.backbutton button {
+    cursor: pointer;
     position: absolute;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 50%;
-    top: calc(50% - 20px);
+    top: calc(50% - 22.5px);
     left: .5em;
+    height: 45px;
+    width: 45px;
+    border-radius: 45px;
+    border-style: none;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.4);
+    background-color: white;
+
+}
+
+.menu div {
+    position: absolute;
+    right: 0;
+    width: 150px;
+    background-image: linear-gradient(to right, transparent 10%, white 50%);
+    height: 100%;
+
 }
 
 .nextbutton {
-    /*    content: "";*/
-    background-image: linear-gradient(90deg, transparent 10%, rgb(255, 255, 255) 70%, white 100%);
-    width: 200px;
-    height: 70px;
+    cursor: pointer;
     position: absolute;
-    right: 0;
-}
-
-.nextbutton::after {
-    content: "👉";
-    width: 40px;
-    height: 40px;
-    text-decoration: none;
-    color: gainsboro;
-    background: white;
-    box-shadow: 0 0 5px grey;
-    position: absolute;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 50%;
-    top: calc(50% - 20px);
-    right: calc(.5em + 50px + .5em);
-}
-
-.carouselmenu {
-
-    display: flex;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    right: .5em;
-    top: calc(50% - 25px);
-    width: 50px;
-    height: 50px;
-    border-radius: 5px;
+    top: calc(50% - 22.5px);
+    z-index: 1;
+    right: 5.5em;
+    height: 45px;
+    width: 45px;
+    border-radius: 45px;
+    border-style: none;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.4);
     background-color: white;
-    box-shadow: 0 0 5px grey;
+
+}
+
+#navcarousel button:focus {
+    outline: 0;
+}
+
+
+.menu button {
+    cursor: pointer;
+    position: absolute;
+    top: calc(50% - 30px);
+    right: .5em;
+    width: 60px;
+    height: 60px;
+    border-radius: 5px;
+    border-style: none;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.4);
+    background-color: white;
+    color: lightgrey;
 }
 
 #introtxt {
@@ -322,13 +345,15 @@ main {
 }
 
 
+
 @media only screen and (max-width: 545px) {
+
 
     .backbutton {
         display: none;
     }
 
-    .nextbutton::after {
+    .nextbutton {
         display: none;
     }
 
@@ -349,7 +374,10 @@ main {
 
 }
 
+
+
 @media only screen and (min-width: 540px) {
+
 
 
     #introtxt h1 {
@@ -369,11 +397,56 @@ main {
 
 
 @media only screen and (min-width: 768px) {
+
+
     main {
         grid-template-columns: repeat(2, 1fr);
     }
 }
 
+@media (max-width: 992px) {
+
+    #navbar div button {
+        display: flex;
+    }
+
+    #navbar ul:first-of-type {
+        background-color: #1a1a1a;
+        height: 100vh;
+        min-width: 300px;
+        width: 40%;
+        position: absolute;
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+        top: 60px;
+        left: 0;
+        padding: 0 1.6em 0;
+        transform: translateX(-100%);
+    }
+
+    #navbar ul:first-of-type li {
+        margin: 10px 0;
+
+    }
+
+
+
+    #navbar ul:first-of-type.toonMenu {
+        transform: translateX(0%);
+        transition: .2s;
+    }
+
+    #navbar ul:last-of-type li:nth-of-type(2),
+    li:nth-of-type(3) {
+        display: none;
+    }
+
+    #navbar ul:last-of-type li:nth-of-type(3) {
+        display: none;
+    }
+
+}
 
 @media only screen and (min-width: 992px) {
     main {
@@ -397,7 +470,11 @@ main {
     main {
         grid-template-columns: repeat(4, 1fr);
     }
+
 }
+
+
+
 
 @media only screen and (min-width: 1734px) {
     main {
@@ -405,11 +482,13 @@ main {
     }
 }
 
-@media (max-width: 2593px) and (min-width: 2149px) {
-    main {
-        grid-template-columns: repeat(6, 1fr);
+/*
+    @media (min-width: 2149px) and (max-width: 2593px) {
+        main {
+            grid-template-columns: repeat(6, 1fr);
+        }
     }
-}
+*/
 
 @media only screen and (min-width: 2593px) {
     main {
@@ -417,4 +496,6 @@ main {
         /*        border: 2px solid red;*/
         grid-template-columns: repeat(7, 1fr);
     }
+
+
 }
