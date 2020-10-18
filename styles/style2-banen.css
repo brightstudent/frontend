@@ -1,0 +1,532 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: calc(14px + (16 - 14) * ((100vw - 300px) / (1600 - 300)));
+    font-family: 'Acumin-Pro', sans-serif;
+    @import url("https://use.typekit.net/xta7btl.css");
+}
+
+body {
+    width: 100%;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    background-color: #fafafa;
+}
+
+header {
+    margin: auto;
+    width: 100%;
+    height: auto;
+}
+
+nav {
+    height: 60px;
+    width: 100%;
+    background-color: #1a1a1a;
+    position: fixed;
+    top: 0;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1em;
+    font-family: "Acumin Pro", sans-serif;
+    font-weight: 600;
+
+}
+
+
+nav div {
+    display: flex;
+    align-items: center;
+    height: 100%;
+
+}
+
+
+nav div button {
+    cursor: pointer;
+    display: none;
+    border: 0;
+    outline: none;
+    background: none;
+    margin: 0 1em 0 0;
+    z-index: 999;
+}
+
+nav ul a {
+    text-decoration: none;
+    color: #818181;
+    font-size: 15px;
+}
+
+nav ul a.active {
+    color: white;
+}
+
+nav ul a:hover {
+    color: white;
+}
+
+nav ul {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    list-style: none;
+}
+
+nav ul > li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 .3em;
+}
+
+nav ul li:nth-of-type(4) {
+    background-color: #0060ff;
+    border-radius: 35px;
+    height: 35px;
+    min-width: 230px;
+    height: 35px;
+    transition-property: background;
+    transition-duration: .5s;
+}
+
+nav ul li:nth-of-type(4):hover {
+    background-color: #0052dd;
+    transition-property: background;
+    transition-duration: .2s;
+}
+
+nav ul li:nth-of-type(4):active {
+    background-color: #0045b7;
+    transition-property: background;
+    transition-duration: .2s;
+}
+
+nav ul li:nth-of-type(4) a {
+    color: white;
+}
+
+nav ul:first-of-type > span {
+    color: #818181;
+    font-size: 13px;
+}
+
+nav ul:first-of-type li:last-of-type a {
+    min-width: 35px;
+    height: 35px;
+    border-radius: 35px;
+    margin: 0 .2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    transition-property: transform;
+    transition-duration: .5s;
+}
+
+nav ul:first-of-type li:last-of-type a:hover {
+    transform: scale(1.1);
+    transition-property: transform;
+    transition-duration: .2s;
+}
+
+
+nav ul:first-of-type li:last-of-type a:first-child {
+    background-color: white;
+
+}
+
+nav ul:first-of-type li:last-of-type a:nth-child(2) {
+    background-color: #2261c9;
+}
+
+nav ul:first-of-type li:last-of-type a:last-child {
+    background-color: white;
+}
+
+
+.fa-bars {
+    color: #818181;
+}
+
+.fa-apple {
+    color: black;
+
+}
+
+.fa-facebook {
+    color: white;
+}
+
+.fa-google {
+    background: conic-gradient(from -45deg, #ea4335 110deg, #4285f4 90deg 180deg, #34a853 180deg 270deg, #fbbc05 270deg) 73% 55%/150% 150% no-repeat;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+}
+
+nav ul:last-child > li:nth-of-type(2) {
+    display: flex;
+}
+
+nav ul:last-child > li:nth-of-type(3) {
+    display: flex;
+}
+
+header > article {
+    position: relative;
+    margin: auto;
+    width: 100%;
+    height: 310px;
+    min-height: 218px;
+    background-image: url(../images/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+header article:after {
+    background-color: rgba(0, 0, 0, 0.45);
+    content: '';
+    height: 100%;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+header article > h1 {
+    font-size: 400%;
+    font-weight: 800;
+    line-height: 1;
+    margin-bottom: 10px;
+    color: white;
+    z-index: 2;
+    margin-top: -40px;
+    animation: drop-it 1s ease both;
+
+}
+
+
+@keyframes drop-it {
+    0% {
+
+        transform: translateY(-60px);
+        opacity: 0;
+    }
+
+    100% {
+
+        transform: translateZ(0);
+        opacity: 1;
+    }
+}
+
+
+header article > h2 {
+    font-size: 150%;
+    font-weight: 500;
+    line-height: 1;
+    margin-bottom: 10px;
+    color: white;
+    z-index: 2;
+    animation: drop-it 1s .2s ease both;
+}
+
+header article > button {
+    width: 180px;
+    height: 2.6em;
+    color: white;
+    border-radius: 2.4em;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 110%;
+    font-weight: 600;
+    z-index: 2;
+    margin: 0.5em auto;
+    animation: drop-it 1s .2s ease both;
+    background-color: #0060ff;
+    transition-property: background;
+    transition-duration: .5s;
+}
+
+header article > button:hover {
+    background-color: #0052dd;
+    transition-property: background;
+    transition-duration: .2s;
+}
+
+header article > button:active {
+    background-color: #0045b7;
+    transition-property: background;
+    transition-duration: .2s;
+}
+
+.zoekbalk {
+    position: sticky;
+    top: 60px;
+    margin: -30px auto auto;
+    z-index: 9;
+    height: 56px;
+
+    width: 100%;
+    max-width: 1192px;
+
+}
+
+.zoekbalk > input {
+    position: absolute;
+    border: none;
+    border-radius: 3px;
+    box-shadow: 0 0 6px rgba(25, 25, 25, 0.16);
+    font-size: 16px;
+    height: 56px;
+    padding-left: 55px;
+    width: 100%;
+    max-width: 1192px;
+}
+
+.zoekbalk > div {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    top: calc(50% - 15px);
+    right: 1em;
+}
+
+.zoekbalk div > button {
+    display: flex;
+    align-items: center;
+    height: 30px;
+    padding: .5em;
+    margin-left: 1em;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: transparent;
+    font-family: 'Acumin-Pro', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.zoekbalk div > button:hover {
+    color: #0060ff;
+}
+
+.zoekbalk div > button i {
+     margin-left: .5em;
+}
+
+.cards {
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    padding: 24px 0;
+    display: grid;
+    grid-auto-columns: repeat(auto-fill, 285px);
+    grid-auto-rows: 245px;
+    grid-column-gap: 1em;
+    grid-row-gap: 1em;
+    max-width: 1192px;
+}
+
+.card {
+    background-color: white;
+    border: 1px solid #dbdbdb;
+    padding: 25px;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+.card div:first-of-type {
+    display: flex;
+    align-items: center;
+}
+
+.card div > div:first-of-type {
+    width: 3em;
+    height: 3em;
+    border-radius: 3em;
+    background-color: #7f8eff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card > div:first-of-type h1 {
+    font-size: 90%;
+    font-weight: 500;
+}
+
+.card > div:first-of-type h2 {
+    font-size: 80%;
+    font-weight: 500;
+    color: dimgray;
+}
+
+
+.card section h1 {
+    font-size: 100%;
+    font-weight: 400;
+    color: #333333;
+    font-size: 14px;
+    line-height: 18px;
+    height: 22px;
+
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+
+}
+
+.card section > p {
+    font-size: 13px;
+    font-weight: 400;
+    height: 54px;
+    line-height: 18px;
+    color: dimgray;
+
+    overflow: hidden;
+}
+
+.card div > div:last-of-type {
+    margin-left: 1em;
+
+}
+
+.card div > div span {
+    font-size: 190%;
+    color: white;
+}
+
+.card > div:last-of-type {
+    display: flex;
+    border-top: 1px solid #ebebeb;
+    justify-content: space-between;
+    align-items: center;
+    height: 20px;
+    padding: 1em 0 0;
+}
+
+.card > div:last-of-type i {
+    color: dimgrey;
+}
+
+.card > div:last-of-type p {
+    font-size: 80%;
+    color: dimgrey;
+    margin: 0 .1em;
+    font-weight: 500;
+}
+
+.card > div:last-of-type > i:last-of-type {
+    background-color: transparent;
+    width: 1.5em;
+    height: 1.5em;
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card > div:last-of-type > i:last-of-type:hover {
+    background-color: #d1d1d1;
+    width: 1.5em;
+    height: 1.5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media only screen and (max-width: 540px) {
+    .cards {
+        grid-template-columns: repeat(auto-fill, 285px);
+    }
+}
+
+@media only screen and (min-width: 540px) {
+    .cards {
+        grid-template-columns: repeat(auto-fill, 285px);
+    }
+}
+
+@media (max-width: 992px) {
+    .zoekbalk > input {
+        max-width: 889px;
+    }
+    
+    .zoekbalk > div {
+        display: none;
+    }
+
+    nav div button {
+        display: flex;
+    }
+
+    nav ul:first-of-type {
+        background-color: #1a1a1a;
+        height: 100vh;
+        min-width: 300px;
+        width: 40%;
+        position: absolute;
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+        top: 59px;
+        left: 0;
+        padding: 0 1em 0;
+        transform: translateX(-100%);
+    }
+
+    nav ul:first-of-type li {
+        margin: 10px 0;
+
+    }
+
+    nav ul:first-of-type > span {
+        display: none;
+    }
+
+
+    nav ul:first-of-type.toonMenu {
+        transform: translateX(0%);
+        transition: .2s;
+    }
+
+    nav ul:last-child > li:nth-of-type(2) {
+        display: none;
+    }
+
+    nav ul:last-child > li:nth-of-type(3) {
+        display: none;
+    }
+}
+
+@media (min-width: 992px) {
+
+    footer::after {
+        content: "Dit is een footer.. Wow!";
+        background: #000;
+        color: gray;
+        position: fixed;
+        height: 1.5em;
+        margin: auto;
+        top: calc(100% - 1.5em);
+        width: 100%;
+        text-align: center;
+    }
+}

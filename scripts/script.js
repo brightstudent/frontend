@@ -4,8 +4,8 @@
 /*eslint-env browser*/
 /*eslint 'no-console':0*/
 
-var deNav = document.querySelector("#navbar ul:first-of-type");
-var deButton = document.querySelector("#navbar div button");
+var deNav = document.querySelector("nav ul:first-of-type");
+var deButton = document.querySelector("nav div button");
 
 deButton.addEventListener("click", toggleMenu);
 
@@ -17,3 +17,4 @@ console.log(deButton);
 console.log(deNav);
 
 //alert("Hello dit is mijn page!");
+

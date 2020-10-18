@@ -11,24 +11,38 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 3. https://www.w3schools.com/css/css3_object-fit.asp
 4. https://stackoverflow.com/questions/52578726/fontawesome-5-multi-color-icon
 5. https://fontawesome.com/icons/google?style=brands
-
+6. https://stackoverflow.com/questions/7993067/text-overflow-ellipsis-not-working
+7. https://flickity.metafizzy.co/style.html
 
 
 ## Eindgesprek (week 7/8)
 
--dit ging goed & dit was lastig-
+**Wat ging goed:**
+1. Het maken van animaties
+2. De zoekbalk op de tweede pagina sticky gekregen
+    
+**Wat was lastig:**
+1. De carousel zelf realiseren was niet te doen. Ik heb uiteindelijk gebruik gemaakt van flickty (zie bron 7)
+2. Het gedrag van de sticky zoekbalk aanpassen met Javascript
 
 **Screenshot(s):**
 
--screenshot(s) van je eindresultaat-
-
+![Laptop](screenshots/final-laptop.png "Eindresultaat op de laptop")
+![tablet](screenshots/final-tablet.png "Eindresultaat op de tablet")
+![mobiel](screenshots/final-mobiel.png "Eindresultaat op de mobiel")
 
 
 ## Voortgang 3 (week 6)
 
--same as voortgang 1-
+**Wat ging goed:**
+1. Het maken van de responsive hamburgermenu for mobiel.
+    
+**Wat was lastig:**
+...
 
+**Screenshots:**
 
+![Voortgang van week 6](screenshots/hamburgermenu.png "Voortgang van week 6")
 
 ## Voortgang 2 (week 5)
 
