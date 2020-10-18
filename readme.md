@@ -24,11 +24,12 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 **Wat was lastig:**
 1. De carousel zelf realiseren was niet te doen. Ik heb uiteindelijk gebruik gemaakt van flickty (zie bron 7)
 2. Het gedrag van de sticky zoekbalk aanpassen met Javascript
-3. dropdown menus maken voor de zoekbalk 
+3. Dropdown menus maken voor de zoekbalk in pagina 2
 
 **Screenshot(s):**
 
 ![Laptop](screenshots/final-laptop.png "Eindresultaat op de laptop")
+![Laptop](screenshots/final-laptop-pagina2.png "Eindresultaat op de laptop - tweede pagina")
 ![tablet](screenshots/final-tablet.png "Eindresultaat op de tablet")
 ![mobiel](screenshots/final-mobiel.png "Eindresultaat op de mobiel")
 
