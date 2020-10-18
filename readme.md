@@ -24,6 +24,7 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 **Wat was lastig:**
 1. De carousel zelf realiseren was niet te doen. Ik heb uiteindelijk gebruik gemaakt van flickty (zie bron 7)
 2. Het gedrag van de sticky zoekbalk aanpassen met Javascript
+3. dropdown menus maken voor de zoekbalk 
 
 **Screenshot(s):**
 
