@@ -28,8 +28,8 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 **Screenshot(s):**
 
 ![Laptop](screenshots/final-laptop.png "Eindresultaat op de laptop")
-![tablet](screenshots/final-tablet.png "Eindresultaat op de tablet")
-![mobiel](screenshots/final-mobiel.png "Eindresultaat op de mobiel")
+![tablet](screenshots/final-tablet.png "Eindresultaat op de tablet" | width=50)
+![mobiel](screenshots/final-mobiel.png "Eindresultaat op de mobiel" | width=50)
 
 
 ## Voortgang 3 (week 6)
