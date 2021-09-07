@@ -6,7 +6,7 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 **level:**
 - [x] Blauw
 - [ ] Rood
-- [ ] Zwart
+- [ ] \(Optional) Zwart
 
 ## Bronnenlijst
 1. https://css-tricks.com/aspect-ratio-boxes/
