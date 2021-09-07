@@ -8,6 +8,20 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 - [ ] Rood
 - [ ] Zwart
 
+# publish file 'hello.py' as a public gist
+$ gh gist create --public hello.py
+
+# create a gist with a description
+$ gh gist create hello.py -d "my Hello-World program in Python"
+
+# create a gist containing several files
+$ gh gist create hello.py world.py cool.txt
+
+# read from standard input to create a gist
+$ gh gist create -
+
+# create a gist from output piped from another command
+$ cat cool.txt | gh gist create
 
 
 ## Bronnenlijst
