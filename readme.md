@@ -8,9 +8,18 @@ Wat was lastig | Wat ging goed
 Het maken van de responsive hamburgermenu for mobiel. | nvt
 
 ```CSS
+
 h1 {
 color: red; 
 }
+
+```
+
+```HTML
+
+<body>
+<h1> Hello world </h1>
+</body>
 ```
 
 
