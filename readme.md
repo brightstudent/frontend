@@ -6,7 +6,8 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 Wat was lastig | Wat ging goed
 ---------------|--------------
 Het maken van de responsive hamburgermenu for mobiel. | nvt
-
+# Code
+## Dit is CSS
 ```CSS
 
 h1 {
@@ -14,7 +15,7 @@ color: red;
 }
 
 ```
-
+## Dit is HTML
 ```HTML
 
 <body>
