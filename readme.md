@@ -10,7 +10,7 @@ Het maken van de responsive hamburgermenu for mobiel. | nvt
 
 * Item 1
 * Item 2
-    * item 2.1
+  * item 2.1
 
 ## Bronnenlijst
 1. https://css-tricks.com/aspect-ratio-boxes/
