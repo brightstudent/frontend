@@ -22,12 +22,12 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 **Wat ging goed:**
 1. Het maken van animaties
-2. De zoekbalk op de tweede pagina sticky gekregen
+1. De zoekbalk op de tweede pagina sticky gekregen
     
 **Wat was lastig:**
 1. De carousel zelf realiseren was niet te doen. Ik heb uiteindelijk gebruik gemaakt van flickty (zie bron 7)
-2. Het gedrag van de sticky zoekbalk aanpassen met Javascript
-3. Dropdown menus maken voor de zoekbalk in pagina 2
+1. Het gedrag van de sticky zoekbalk aanpassen met Javascript
+1. Dropdown menus maken voor de zoekbalk in pagina 2
 
 **Screenshot(s):**
 
@@ -43,7 +43,7 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 1. Het maken van de responsive hamburgermenu for mobiel.
     
 **Wat was lastig:**
-...
+1. nvt
 
 **Screenshots:**
 
@@ -53,13 +53,13 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 **Wat ging goed:**
 1. tekst overlay op de thumbnails tijdens de hover
-2. ratio behouden tijdens het schalen
+1. ratio behouden tijdens het schalen
     
 **Wat was lastig:**
 1. croussel knoppen maken om te navigeren
-2. active link in de carossel in het midden centreren
-3. menu laten collapsen (hamburgermenu) op kleinere schermen
-4. over het algemeen zijn de menu balken het moeilijkste gedeelte 
+1. active link in de carossel in het midden centreren
+1. menu laten collapsen (hamburgermenu) op kleinere schermen
+1. over het algemeen zijn de menu balken het moeilijkste gedeelte 
 
 
 **Screenshots:**
@@ -82,12 +82,12 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 **Wat ging goed:**
 1. responsive maken van de website
-2. het gebruiken van de grid voor het eerste keer
+1. het gebruiken van de grid voor het eerste keer
 
     
 **Wat was lastig:**
 1. croussel maken
-2. script toevoegen
+1. script toevoegen
 
 **Screenshot(s):**
 
