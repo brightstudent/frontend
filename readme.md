@@ -3,7 +3,9 @@
 
 Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet). Nb. de standaardstructuur en de spartaanse opmaak zijn helemaal prima. Het gaat om de inhoud van je procesverslag. Besteedt de tijd voor pracht en praal aan je website.
 
-
+Wat was lastig | Wat ging goed
+---------------|--------------
+Het maken van de responsive hamburgermenu for mobiel. | nvt
 
 ## Bronnenlijst
 1. https://css-tricks.com/aspect-ratio-boxes/
@@ -41,10 +43,6 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
     
 **Wat was lastig:**
 ...
-
-Wat was lastig | Wat ging goed
-------------------------------
-Het maken van de responsive hamburgermenu for mobiel. | nvt
 
 **Screenshots:**
 
