@@ -5,7 +5,9 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 Wat was lastig | Wat ging goed
 ---------------|--------------
-Het maken van de responsive hamburgermenu for mobiel. | nvt
+noem iets | noem iets
+Meer noemen | meer noemen
+
 # Code
 ## Dit is CSS
 ```CSS
@@ -15,17 +17,7 @@ color: red;
 }
 
 ```
-1. Item 1
-1. Item 2
-1. Item 3
-   1. Item 3a
-   1. Item 3b
 
-As Kanye West said:
-
-> We're living the future so
-> the present is our past.
-http://www.github.com/
 ## Dit is HTML
 ```HTML
 
