@@ -8,30 +8,14 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 - [ ] Rood
 - [ ] Zwart
 
-# publish file 'hello.py' as a public gist
-$ gh gist create --public hello.py
-
-# create a gist with a description
-$ gh gist create hello.py -d "my Hello-World program in Python"
-
-# create a gist containing several files
-$ gh gist create hello.py world.py cool.txt
-
-# read from standard input to create a gist
-$ gh gist create -
-
-# create a gist from output piped from another command
-$ cat cool.txt | gh gist create
-
-
 ## Bronnenlijst
 1. https://css-tricks.com/aspect-ratio-boxes/
-2. https://css-tricks.com/almanac/selectors/a/after-and-before/
-3. https://www.w3schools.com/css/css3_object-fit.asp
-4. https://stackoverflow.com/questions/52578726/fontawesome-5-multi-color-icon
-5. https://fontawesome.com/icons/google?style=brands
-6. https://stackoverflow.com/questions/7993067/text-overflow-ellipsis-not-working
-7. https://flickity.metafizzy.co/style.html
+1. https://css-tricks.com/almanac/selectors/a/after-and-before/
+1. https://www.w3schools.com/css/css3_object-fit.asp
+1. https://stackoverflow.com/questions/52578726/fontawesome-5-multi-color-icon
+1. https://fontawesome.com/icons/google?style=brands
+1. https://stackoverflow.com/questions/7993067/text-overflow-ellipsis-not-working
+1. https://flickity.metafizzy.co/style.html
 
 
 ## Eindgesprek (week 7/8)
