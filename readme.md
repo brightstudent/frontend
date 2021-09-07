@@ -7,11 +7,11 @@ Wat was lastig | Wat ging goed
 ---------------|--------------
 Het maken van de responsive hamburgermenu for mobiel. | nvt
 
-```CSS
+CSS
 h1 {
 color: red; 
 }
-```
+
 
 ## Bronnenlijst
 1. https://css-tricks.com/aspect-ratio-boxes/
