@@ -7,6 +7,11 @@ Wat was lastig | Wat ging goed
 ---------------|--------------
 Het maken van de responsive hamburgermenu for mobiel. | nvt
 
+
+* Item 1
+* Item 2
+    * item 2.1
+
 ## Bronnenlijst
 1. https://css-tricks.com/aspect-ratio-boxes/
 2. https://css-tricks.com/almanac/selectors/a/after-and-before/
