@@ -3,28 +3,11 @@
 
 Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet). Nb. de standaardstructuur en de spartaanse opmaak zijn helemaal prima. Het gaat om de inhoud van je procesverslag. Besteedt de tijd voor pracht en praal aan je website.
 
-Wat was lastig | Wat ging goed
----------------|--------------
-noem iets | noem iets
-Meer noemen | meer noemen
+**level:**
+- [x] Blauw
+- [ ] Rood
+- [ ] Zwart
 
-# Code
-## Dit is CSS
-```CSS
-
-h1 {
-color: red; 
-}
-
-```
-
-## Dit is HTML
-```HTML
-
-<body>
-<h1> Hello world </h1>
-</body>
-```
 
 
 ## Bronnenlijst
