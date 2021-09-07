@@ -76,9 +76,7 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 Merel | Renzo | Sietse | Zaid
 ------|-------|--------|-----
-nvt | Animatie hamburger menu | Flexbox | Navigeren met een klikbutton binnen de carousel
- | talenkeuze |
- | inloggen | 
+nvt | Animatie hamburger, menu talenkeuze en inloggen | Flexbox | Navigeren met een klikbutton binnen de carousel
 
 
 ## Voortgang 1 (week 3)
