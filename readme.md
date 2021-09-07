@@ -42,6 +42,10 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 **Wat was lastig:**
 ...
 
+Wat was lastig | Wat ging goed
+------------------------------
+Het maken van de responsive hamburgermenu for mobiel. | nvt
+
 **Screenshots:**
 
 ![Voortgang van week 6](screenshots/hamburgermenu.png "Voortgang van week 6")
