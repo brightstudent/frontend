@@ -74,6 +74,11 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ![Agenda van week 5](screenshots/agenda-week5.png "Agenda van week 5")
 
+Merel | Renzo | Sietse | Zaid
+------|-------|--------|-----
+nvt | Animatie hamburger menu | Flexbox | Navigeren met een klikbutton binnen de carousel
+    | talenkeuze | | |
+    | inloggen | | |
 
 
 ## Voortgang 1 (week 3)
