@@ -22,7 +22,7 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 **Wat ging goed:**
 1. Het maken van animaties
-1. Het vast zetten van mijn navigatiebalk bovenaan bij het scrollen door `postition: sticky` te gebruiken
+1. Het vastzetten van mijn navigatiebalk. Hiervoor heb ik de property `postition: sticky` gebruikt.
     
 **Wat was lastig:**
 1. De carousel zelf realiseren was niet te doen. Ik heb uiteindelijk gebruik gemaakt van flickty (zie bron 7)
