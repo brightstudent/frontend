@@ -48,7 +48,7 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 **Screenshots:**
 
-![Voortgang van week 6](screenshots/hamburgermenu.png "Voortgang van week 6")
+![Voortgang van week 6](screenshots/menu-2.0.png "Voortgang van week 6")
 
 ## Voortgang 2 (week 5)
 
@@ -118,14 +118,14 @@ Tijdens de meeting hebben we het gehad over tekst overlay boven de plaatjes. Hie
 
 **Je startniveau:**
 
-- [ ] Blauw
+- [] Blauw
 - [x] Rood
-- [ ] Zwart
+- [] Zwart
 
 **Je focus:**
 
 - [x] Responsive
-- [ ] Surface plane
+- [] Surface plane
 
 **Je opdracht:**
 https://www.behance.net/
