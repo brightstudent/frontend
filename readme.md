@@ -29,7 +29,7 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 **Screenshot(s):**
 
-![Alle formaten](screenshots/final-laptop.png "Eindresultaat op verschillende apparaten")
+![Alle formaten](screenshots/final.png "Eindresultaat op verschillende apparaten")
 
 <!-- ![Laptop](screenshots/final-laptop.png "Eindresultaat op de laptop")
 ![Laptop](screenshots/final-laptop-pagina2.png "Eindresultaat op de laptop - tweede pagina")
