@@ -30,11 +30,8 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 **Screenshot(s):**
 
 ![Alle formaten](screenshots/final.png "Eindresultaat op verschillende apparaten")
-
-<!-- ![Laptop](screenshots/final-laptop.png "Eindresultaat op de laptop")
-![Laptop](screenshots/final-laptop-pagina2.png "Eindresultaat op de laptop - tweede pagina")
-![tablet](screenshots/final-tablet.png "Eindresultaat op de tablet")
-![mobiel](screenshots/final-mobiel.png "Eindresultaat op de mobiel") -->
+![Pagina 1](screenshots/final-pag1.png "Eindresultaat van pagina 1")
+![Pagina 2](screenshots/final-pag2.png "Eindresultaat van pagina 2")
 
 ## Voortgang 3 (week 6)
 
@@ -118,14 +115,14 @@ Tijdens de meeting hebben we het gehad over tekst overlay boven de plaatjes. Hie
 
 **Je startniveau:**
 
-- [ ] Blauw
+- [] Blauw
 - [x] Rood
-- [ ] Zwart
+- [] Zwart
 
 **Je focus:**
 
 - [x] Responsive
-- [ ] Surface plane
+- [] Surface plane
 
 **Je opdracht:**
 https://www.behance.net/
