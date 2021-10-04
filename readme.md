@@ -120,14 +120,14 @@ Tijdens de meeting hebben we het gehad over tekst overlay boven de plaatjes. Hie
 
 **Je startniveau:**
 
-- [] Blauw
+- [ ] Blauw
 - [x] Rood
-- [] Zwart
+- [ ] Zwart
 
 **Je focus:**
 
 - [x] Responsive
-- [] Surface plane
+- [ ] Surface plane
 
 **Je opdracht:**
 https://www.behance.net/
