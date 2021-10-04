@@ -29,10 +29,12 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 **Screenshot(s):**
 
-![Laptop](screenshots/final-laptop.png "Eindresultaat op de laptop")
+![Alle formaten](screenshots/final-laptop.png "Eindresultaat op verschillende apparaten")
+
+<!-- ![Laptop](screenshots/final-laptop.png "Eindresultaat op de laptop")
 ![Laptop](screenshots/final-laptop-pagina2.png "Eindresultaat op de laptop - tweede pagina")
 ![tablet](screenshots/final-tablet.png "Eindresultaat op de tablet")
-![mobiel](screenshots/final-mobiel.png "Eindresultaat op de mobiel")
+![mobiel](screenshots/final-mobiel.png "Eindresultaat op de mobiel") -->
 
 ## Voortgang 3 (week 6)
 
@@ -77,8 +79,6 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 ```
 
 ![Voortgang van week 5](screenshots/voortgang2.png "Voortgang van week 5")
-
-<!-- ![Ik ben trots op het gebruiken van de psuedo class :after en :before daardoor heb ik de gradient kunnen doen](screenshots/code1.png "Code van de carousel knoppen") -->
 
 ### Agenda voor meeting
 
