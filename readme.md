@@ -64,6 +64,18 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 **Screenshots:**
 
+```CSS
+.thumbnail {
+    position: relative;
+}
+
+.thumbnail:after {
+    content: '';
+    display: block;
+    padding-bottom: calc(100% / (4/3));
+}
+```
+
 ![Voortgang van week 5](screenshots/voortgang2.png "Voortgang van week 5")
 
 ![Ik ben trots op het gebruiken van de psuedo class :after en :before daardoor heb ik de gradient kunnen doen](screenshots/code1.png "Code van de carousel knoppen")
