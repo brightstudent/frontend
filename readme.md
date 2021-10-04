@@ -78,9 +78,7 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ![Voortgang van week 5](screenshots/voortgang2.png "Voortgang van week 5")
 
-![Ik ben trots op het gebruiken van de psuedo class :after en :before daardoor heb ik de gradient kunnen doen](screenshots/code1.png "Code van de carousel knoppen")
-
-![Het gebruiken van before heeft ook geholpen bij het maken van een gefixte aspect ratio voor de foto's](screenshots/code2.png "Code van de gefixte aspect ratio")
+<!-- ![Ik ben trots op het gebruiken van de psuedo class :after en :before daardoor heb ik de gradient kunnen doen](screenshots/code1.png "Code van de carousel knoppen") -->
 
 ### Agenda voor meeting
 
@@ -120,14 +118,14 @@ Tijdens de meeting hebben we het gehad over tekst overlay boven de plaatjes. Hie
 
 **Je startniveau:**
 
-- [ ] Blauw
+- [] Blauw
 - [x] Rood
-- [ ] Zwart
+- [] Zwart
 
 **Je focus:**
 
 - [x] Responsive
-- [ ] Surface plane
+- [] Surface plane
 
 **Je opdracht:**
 https://www.behance.net/
