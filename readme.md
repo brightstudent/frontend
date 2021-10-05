@@ -51,15 +51,15 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 **Wat ging goed:**
 
-1. tekst overlay op de thumbnails tijdens de hover
-1. ratio behouden tijdens het schalen
+1. Tekst overlay op de thumbnails tijdens de hover
+1. Ratio behouden tijdens het schalen
 
 **Wat was lastig:**
 
-1. croussel knoppen maken om te navigeren
-1. active link in de carossel in het midden centreren
-1. menu laten collapsen (hamburgermenu) op kleinere schermen
-1. over het algemeen zijn de menu balken het moeilijkste gedeelte
+1. Croussel knoppen maken om te navigeren
+1. Active link in de carossel in het midden centreren
+1. Menu laten collapsen (hamburgermenu) op kleinere schermen
+1. Over het algemeen zijn de menu balken het moeilijkste gedeelte
 
 **Screenshots:**
 
@@ -89,13 +89,13 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 **Wat ging goed:**
 
-1. responsive maken van de website
-1. het gebruiken van de grid voor het eerste keer
+1. Responsive maken van de website
+1. Het gebruiken van de grid voor het eerste keer
 
 **Wat was lastig:**
 
-1. croussel maken
-1. script toevoegen
+1. Croussel maken
+1. Script toevoegen
 
 **Screenshot(s):**
 
@@ -115,14 +115,14 @@ Tijdens de meeting hebben we het gehad over tekst overlay boven de plaatjes. Hie
 
 **Je startniveau:**
 
-- [] Blauw
+- [ ] Blauw
 - [x] Rood
-- [] Zwart
+- [ ] Zwart
 
 **Je focus:**
 
 - [x] Responsive
-- [] Surface plane
+- [ ] Surface plane
 
 **Je opdracht:**
 https://www.behance.net/
@@ -130,10 +130,6 @@ https://www.behance.net/
 **Screenshot(s):**
 
 ![Behance op verschillende apparaten](screenshots/desktop-to-mobile.png "Behance website")
-
-<!-- ![Behance op mobiel formaat](screenshots/iphone.png "Mobiel formaat")
-![Behance op tablet formaat](screenshots/ipad.png "Tablet formaat")
-![Behance op desktop formaat](screenshots/laptop.png "Laptop formaat") -->
 
 **Breakdown-schets(en):**
 
